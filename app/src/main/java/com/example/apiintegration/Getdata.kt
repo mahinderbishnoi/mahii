@@ -37,9 +37,7 @@ class Getdata : AppCompatActivity() {
                     .show()
             }
 
-            override fun onResponse(response: String?) {
-                TODO("Not yet implemented")
-            }
+
         }, object : ErrorListener() {
             fun onErrorResponse(error: VolleyError) {
                 Log.i(ContentValues.TAG, "Error :" + error.toString())
