@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
                         .show()
                 }
             }) {
-                override fun getParams(): Map<String, String>? {
+                override fun getParams(): Map<String, String> {
 
                     // below line we are creating a map for storing
                     // our values in key and value pair.
