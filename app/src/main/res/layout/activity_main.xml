@@ -59,15 +59,6 @@
 
     <!--text view to display our
         response after updating data-->
-    <TextView
-        android:id="@+id/idTVResponse"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:gravity="center_horizontal"
-        android:text="Response"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="15sp" />
+
 
 </LinearLayout>
